@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using LexShop.Core.Models;
-using LexShop.DataAccess.InMemory;
+using lextraining_core;
+using lextraining_dataMemory;
 
 namespace lextraining_WebUI.Controllers
 {

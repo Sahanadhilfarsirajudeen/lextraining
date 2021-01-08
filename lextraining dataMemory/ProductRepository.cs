@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Caching;
-using LexShop.Core.Models;
+using lextraining_core;
 
-namespace LexShop.DataAccess.InMemory
+namespace lextraining_dataMemory
 {
     public class ProductRepository
     {
