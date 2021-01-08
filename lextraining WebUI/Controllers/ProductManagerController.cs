@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using lextraining_core;
+using lextraining_core.Models;
 using lextraining_dataMemory;
 
 namespace lextraining_WebUI.Controllers
