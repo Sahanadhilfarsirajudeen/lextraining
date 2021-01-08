@@ -11,7 +11,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lextraining database", "lex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lextraining dataMemory", "lextraining dataMemory\lextraining dataMemory.csproj", "{0BA493F5-5F5F-4050-8024-AD134F8C8239}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lextraining WebUI", "lextraining WebUI\lextraining WebUI.vbproj", "{049A1E26-9478-4329-B35A-A58A03B0846D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lextraining WebUI", "lextraining WebUI\lextraining WebUI.csproj", "{143401F9-9700-4481-BF01-166918D0355D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{0BA493F5-5F5F-4050-8024-AD134F8C8239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BA493F5-5F5F-4050-8024-AD134F8C8239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BA493F5-5F5F-4050-8024-AD134F8C8239}.Release|Any CPU.Build.0 = Release|Any CPU
-		{049A1E26-9478-4329-B35A-A58A03B0846D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{049A1E26-9478-4329-B35A-A58A03B0846D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{049A1E26-9478-4329-B35A-A58A03B0846D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{049A1E26-9478-4329-B35A-A58A03B0846D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143401F9-9700-4481-BF01-166918D0355D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143401F9-9700-4481-BF01-166918D0355D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143401F9-9700-4481-BF01-166918D0355D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143401F9-9700-4481-BF01-166918D0355D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

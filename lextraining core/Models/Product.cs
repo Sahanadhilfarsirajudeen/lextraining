@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LexShop.Core.Models
+namespace lextraining_core.Models
 {
     public class Product
     {
@@ -26,3 +26,4 @@ namespace LexShop.Core.Models
         }
     }
 }
+
