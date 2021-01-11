@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace lextraining_core.Models
 {
-    public class ProductCategory
+    public class ProductCategory : BaseEntity
     {
-        public string Id { get; set; }
+       
         public string Caterogy { get; set; }
 
-        public ProductCategory()
-            {
-            this.Id = Guid.NewGuid().ToString();
-        }
+     
     }
 }
