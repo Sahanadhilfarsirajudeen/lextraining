@@ -34,25 +34,25 @@ namespace lextraining_dataMemory
         public void Update(ProductCategory productCategory)
         {
             ProductCategory productCategoryToUpdate = productCategories.Find(p => p.Id == productCategory.Id);
-            if (ProductCategoryToUpdate != null)
+            if (productCategoryToUpdate != null)
             {
-                ProductCategoryToUpdate = productCategory;
+                productCategoryToUpdate = productCategory;
             }
             else
             {
-                throw new Exception("Product not found");
+                throw new Exception("Product Category not found");
             }
         }
         public ProductCategory Find(string Id)
         {
-            Product productCategory = productCategories.Find(p => p.Id == Id);
+            ProductCategory productCategory = productCategories.Find(p => p.Id == Id);
             if (productCategory != null)
             {
                 return productCategory;
             }
             else
             {
-                throw new Exception("Product not found");
+                throw new Exception("Product Category not found");
             }
         }
         public IQueryable<ProductCategory> Collection()
