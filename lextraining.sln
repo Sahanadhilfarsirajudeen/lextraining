@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lextraining core", "lextrai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lextraining services", "lextraining services\lextraining services.csproj", "{C6E2B75A-8259-4556-84F9-08489A8FF0A6}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lextraining database", "lextraining database\lextraining database.vbproj", "{9CB150B9-F45E-4175-AC5A-AFD7604803A5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lextraining dataMemory", "lextraining dataMemory\lextraining dataMemory.csproj", "{0BA493F5-5F5F-4050-8024-AD134F8C8239}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lextraining WebUI", "lextraining WebUI\lextraining WebUI.csproj", "{143401F9-9700-4481-BF01-166918D0355D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lextraining datasql", "lextraining datasql\lextraining datasql.csproj", "{4CE951F8-0448-42D7-B833-BC95C3954374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,6 @@ Global
 		{C6E2B75A-8259-4556-84F9-08489A8FF0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6E2B75A-8259-4556-84F9-08489A8FF0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6E2B75A-8259-4556-84F9-08489A8FF0A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CB150B9-F45E-4175-AC5A-AFD7604803A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CB150B9-F45E-4175-AC5A-AFD7604803A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CB150B9-F45E-4175-AC5A-AFD7604803A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CB150B9-F45E-4175-AC5A-AFD7604803A5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0BA493F5-5F5F-4050-8024-AD134F8C8239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BA493F5-5F5F-4050-8024-AD134F8C8239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BA493F5-5F5F-4050-8024-AD134F8C8239}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{143401F9-9700-4481-BF01-166918D0355D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143401F9-9700-4481-BF01-166918D0355D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143401F9-9700-4481-BF01-166918D0355D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE951F8-0448-42D7-B833-BC95C3954374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE951F8-0448-42D7-B833-BC95C3954374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE951F8-0448-42D7-B833-BC95C3954374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE951F8-0448-42D7-B833-BC95C3954374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
