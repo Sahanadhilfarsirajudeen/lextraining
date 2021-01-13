@@ -5,15 +5,16 @@ using System.Web;
 using System.Web.Mvc;
 using lextraining_dataMemory;
 using lextraining_core.Models;
+using lextraining_core.Contracts;
 
 namespace lextraining_WebUI.Controllers
 {
     public class ProductCategoryManagerController : Controller
     {
-        InMemoryRepository<ProductCategory> context;
-        public ProductCategoryManagerController()
+        IRepository<ProductCategory> context;
+        public ProductCategoryManagerController(IRepository<ProductCategory> context)
         {
-            context = new InMemoryRepository<ProductCategory>();
+            this.context = context;
         }
         public ActionResult Index()
         {
