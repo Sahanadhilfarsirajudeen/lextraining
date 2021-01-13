@@ -9,7 +9,7 @@ namespace lextraining_core.Models
     public class ProductCategory : BaseEntity
     {
        
-        public string Caterogy { get; set; }
+        public string Category { get; set; }
 
      
     }

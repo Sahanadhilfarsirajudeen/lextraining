@@ -49,6 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datacontext.cs" />
+    <Compile Include="Migrations\202101121830134_Initial.cs" />
+    <Compile Include="Migrations\202101121830134_Initial.Designer.cs">
+      <DependentUpon>202101121830134_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +65,11 @@
       <Project>{697253bf-6aca-4adc-9456-be81e77e88d8}</Project>
       <Name>lextraining core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202101121830134_Initial.resx">
+      <DependentUpon>202101121830134_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
