@@ -1,5 +1,7 @@
 using lextraining_core.Contracts;
 using lextraining_core.Models;
+using lextraining_dataMemory;
+using lextraining_datasql;
 using System;
 
 using Unity;
@@ -44,8 +46,8 @@ namespace lextraining_WebUI
 
             // TODO: Register your type's mappings here.
             // container.RegisterType<IProductRepository, ProductRepository>();
-            container.RegisterType<IRepository<Product>, lextraining_dataMemory.InMemoryRepository<Product>>();
-            container.RegisterType<IRepository<ProductCategory>, lextraining_dataMemory.InMemoryRepository<ProductCategory>>();
+            container.RegisterType<IRepository<Product>, SQLRepository<Product>>();
+            container.RegisterType<IRepository<ProductCategory>, SQLRepository<ProductCategory>>();
 
         }
     }
