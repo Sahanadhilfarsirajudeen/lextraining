@@ -46,10 +46,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -286,10 +286,6 @@
     <ProjectReference Include="..\lextraining core\lextraining core.csproj">
       <Project>{697253bf-6aca-4adc-9456-be81e77e88d8}</Project>
       <Name>lextraining core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\lextraining database\lextraining database.vbproj">
-      <Project>{9cb150b9-f45e-4175-ac5a-afd7604803a5}</Project>
-      <Name>lextraining database</Name>
     </ProjectReference>
     <ProjectReference Include="..\lextraining dataMemory\lextraining dataMemory.csproj">
       <Project>{0ba493f5-5f5f-4050-8024-ad134f8c8239}</Project>
