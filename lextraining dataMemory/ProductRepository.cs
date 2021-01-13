@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Caching;
-using lextraining_core;
+using lextraining_core.Models;
 
 namespace lextraining_dataMemory
 {

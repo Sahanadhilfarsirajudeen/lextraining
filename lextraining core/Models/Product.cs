@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lextraining_core
+namespace lextraining_core.Models
 {
     public class Product
     {
