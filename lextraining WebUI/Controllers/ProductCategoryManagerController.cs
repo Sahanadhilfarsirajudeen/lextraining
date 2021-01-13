@@ -98,7 +98,7 @@ namespace lextraining_WebUI.Controllers
             {
                 context.Delete(Id);
 
-                return View("Index");
+                return RedirectToAction("Index");
             }
         }
     }
