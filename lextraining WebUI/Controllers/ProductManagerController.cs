@@ -24,7 +24,7 @@ namespace lextraining_WebUI.Controllers
         public ActionResult Index()
         {
             List<Product> products = context.Collection().ToList();
-            return View();
+            return View(products);
         }
         public ActionResult Create()
         {

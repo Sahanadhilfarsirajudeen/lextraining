@@ -293,6 +293,10 @@
       <Project>{0ba493f5-5f5f-4050-8024-ad134f8c8239}</Project>
       <Name>lextraining dataMemory</Name>
     </ProjectReference>
+    <ProjectReference Include="..\lextraining datasql\lextraining datasql.csproj">
+      <Project>{4ce951f8-0448-42d7-b833-bc95c3954374}</Project>
+      <Name>lextraining datasql</Name>
+    </ProjectReference>
     <ProjectReference Include="..\lextraining services\lextraining services.csproj">
       <Project>{c6e2b75a-8259-4556-84f9-08489a8ff0a6}</Project>
       <Name>lextraining services</Name>

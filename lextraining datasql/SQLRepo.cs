@@ -9,12 +9,12 @@ using System.Data.Entity;
 
 namespace lextraining_datasql
 {
-    public class SQLRepository<T> : IRepository<T> where T : BaseEntity
+    public class SQLRepo<T> : IRepository<T> where T : BaseEntity
     {
         internal DataContext context;
         internal DbSet<T> dbSet;
 
-        public SQLRepository(DataContext context)
+        public SQLRepo(DataContext context)
         {
             this.context = context;
             this.dbSet = context.Set<T>();
