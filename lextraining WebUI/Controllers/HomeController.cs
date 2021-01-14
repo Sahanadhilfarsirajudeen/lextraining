@@ -20,9 +20,20 @@ namespace lextraining_WebUI.Controllers
         public ActionResult Index()
         {
             List<Product> products = context.Collection().ToList();
-            return View();
+            return View(products);
         }
-
+        public ActionResult Details(string Id)
+        {
+            Product product = context.Find(Id);
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+            else
+            {
+                return View(product);
+            }
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
